@@ -11,6 +11,7 @@ on:
       - '**.md'
   release:
     types: [ prereleased, released ]
+  workflow_dispatch:
 
 jobs:
   validate_gradle_wrapper:
